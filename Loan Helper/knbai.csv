@@ -1,0 +1,21 @@
+,Enroll School ,Course,Location,Unemployed,Salary,Credit Score ,Course Performance,No Payment Due,Family Income,Max Family Credit Score,Filled for bankrupcy
+student1,UCLA,Computer Science,California,1,0,1,3,1,500000,5,no
+student2,Purdue,Psychology,Indianapolis,0,5000,2,2,1,35000,3,yes
+student3,UIC,Biology,Chicago,1,0,1,3,1,90000,4,no
+student4,Utah,Physics,Salt Lake City,1,0,1,1,1,80000,4,yes
+student5,GMU,Maths,Reston,0,8000,2,2,1,60000,3,no
+student6,Houston,Law,Houston,0,11000,3,3,1,7500,4,yes
+student7,UCLA,History,California,1,0,1,4,1,100000,5,no
+student8,Purdue,Geography,Indianapolis,1,0,1,1,1,10000,2,yes
+student9,UIC,Public and Environmental Affairs,Chicago,0,20000,3,2,1,20000,2,yes
+student10,New York,Statistics,New York,0,6000,2,3,1,50000,3,no
+student11,GMU,Computer Science,Reston,0,5000,2,4,1,60000,3,no
+student12,UCLA,Maths,California,0,5000,2,1,1,50000,3,yes
+student13,Houston,Physics,Houston,0,12000,3,2,1,2000,1,yes
+student14,Utah,History,Salt Lake City,1,0,1,3,1,15000,2,yes
+student15,GMU,Psychology,Reston,0,8000,2,4,1,20000,2,no
+student16,Houston,Geography,Houston,1,0,1,3,1,90000,5,no
+student17,San Jose,Public and Environmental Affairs,San Jose,0,9000,2,1,1,70000,4,no
+student18,GMU,Law,Houston,0,9000,2,1,1,30000,3,yes
+student19,New York,Business,New York,1,0,1,4,1,150000,5,no
+student20,IIIT,History,Chicago,0,7000,2,1,1,5000,1,yes

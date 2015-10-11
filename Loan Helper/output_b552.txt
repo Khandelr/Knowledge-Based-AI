@@ -1,0 +1,296 @@
+Input Data- 1
+enroll_school, USC
+course, History
+location, California
+unemployed, 1
+salary, 0
+credit_score, 1
+course_performance, 4
+no_payment_due, 1
+family_income, 30000
+max_family_credit_score, 2
+
+Output:
+0.7416198824195587 : [student10]
+0.9746794344808963 : [student3]
+1.0246951009934613 : [student15]
+1.0954451150103321 : [student11]
+1.161895003862225 : [student19, student7, student14]
+1.2041594786405994 : [student9]
+1.3038404810405297 : [student1]
+1.6124515496597098 : [student2]
+1.6124515651640516 : [student5]
+1.8303005217723127 : [student12]
+1.8303005354312716 : [student20]
+1.9493588817865222 : [student17]
+2.0371548787463363 : [student8]
+2.179449471770337 : [student4]
+2.236067988680129 : [student6]
+2.366431923804275 : [student13]
+2.3874672772626644 : [student16]
+2.711088351566581 : [student18]
+
+Based on the output considering top 5 results, the student will not default.
+
+Input Data- 2
+enroll_school, USC
+course, History
+location, California
+unemployed, 1
+salary, 0
+credit_score, 1
+course_performance, 1
+no_payment_due, 1
+family_income, 30000
+max_family_credit_score, 2
+		
+Output:
+0.4472135954999579 : [student12]
+0.44721365140165387 : [student20]
+0.6324555715621454 : [student9]
+0.8062258058385381 : [student17]
+1.0 : [student8]
+1.2449899597988732 : [student2]
+1.2449899798793562 : [student5]
+1.2649110640673518 : [student4]
+1.264911083831587 : [student10]
+1.4142135623730951 : [student3]
+1.5491933384829668 : [student14]
+1.6583123951777 : [student1]
+2.0493901653906703 : [student18, student15]
+2.085665361461421 : [student11]
+2.1213203435596424 : [student19, student7]
+2.1330729124903347 : [student13]
+2.4596747854137138 : [student6]
+2.598076211353316 : [student16]
+		
+Based on the output considering top 5 results, the student will default.
+
+Input Data- 3
+enroll_school, USC
+course, History
+location, Indianapolis
+unemployed, 1
+salary, 0
+credit_score, 1
+course_performance, 2
+no_payment_due, 1
+family_income, 10000
+max_family_credit_score, 2
+	
+Output:
+0.4472135954999579 : [student2]
+0.44721365140165387 : [student5]
+0.5916079783099616 : [student8, student14]
+0.9746794344808963 : [student4]
+1.0246951009934613 : [student9]
+1.095445137832105 : [student13]
+1.2041594786405994 : [student15]
+1.2449899597988732 : [student12]
+1.2449899798793562 : [student18, student10, student20]
+1.2649110640673518 : [student11]
+1.3964240043768943 : [student3]
+1.4142135800507645 : [student17, student6]
+1.6431676725154982 : [student16, student1]
+1.9364916731037083 : [student19, student7]
+
+Based on the output considering top 5 results, the student will default.
+
+Input Data- 4
+enroll_school, USC
+course, History
+location, Indianapolis
+unemployed, 1
+salary, 8000
+credit_score, 1
+course_performance, 4
+no_payment_due, 1
+family_income, 8000
+max_family_credit_score, 2
+
+Output:
+0.22360679774997896 : [student15]
+0.44721365140165387 : [student11]
+0.5916080205676728 : [student14]
+1.2449899597988732 : [student10]
+1.2649110640673518 : [student5]
+1.264911083831587 : [student2]
+1.3964240222797657 : [student3]
+1.4142135623730951 : [student6]
+1.532970987983791 : [student19, student7]
+1.5652475842498528 : [student9]
+1.6124515496597098 : [student13]
+1.6431676877300136 : [student16, student1]
+1.774823949015789 : [student8]
+1.9364916860136527 : [student4]
+2.085665361461421 : [student18, student20]
+2.0856653734480037 : [student12]
+2.1908902300206643 : [student17]
+Based on the output considering top 5 results, the student will not default. Considering the applicant family income, course, location there is a high probablity that the applicant will default. As the family income is low for the applicant the a lot will depend on the applicant.
+
+Input Data- 5
+enroll_school, USC
+course, History
+location, California
+unemployed, 1
+salary, 8000
+credit_score, 1
+course_performance, 4
+no_payment_due, 1
+family_income, 8000
+max_family_credit_score, 2
+
+Output:
+0.7416198487095663 : [student10]
+0.9746794601303549 : [student3]
+1.02469507659596 : [student15]
+1.095445137832105 : [student11]
+1.161895025378799 : [student19, student7, student14]
+1.2041594578792296 : [student9]
+1.3038405002146543 : [student1]
+1.6124515496597098 : [student5]
+1.6124515651640516 : [student2]
+1.8303005217723127 : [student20]
+1.8303005354312716 : [student12]
+1.9493588689617927 : [student17]
+2.0371548910183535 : [student8]
+2.1794494832411235 : [student4]
+2.2360679774997894 : [student6]
+2.3664319132398464 : [student13]
+2.3874672877340117 : [student16]
+2.711088342345192 : [student18]		
+Based on the output considering top 5 results, the student will not default. As the family income is low for the applicant, a lot will depend on the applicant. The living cost in california is quite high. Considering the applicant family income, course, location there is a high probablity that the applicant will default. 
+
+Input Data- 6
+enroll_school, USC
+course, History
+location, California
+unemployed, 0
+salary, 8000
+credit_score, 1
+course_performance, 3
+no_payment_due, 1
+family_income, 18000
+max_family_credit_score, 2
+		
+Output:
+0.3872983346207417 : [student10]
+0.5916079783099616 : [student9]
+0.8062258058385381 : [student3]
+1.0246951009934613 : [student14]
+1.161895003862225 : [student15]
+1.1832159777487794 : [student1]
+1.224744871391589 : [student5]
+1.2247448918040034 : [student2, student11]
+1.2449899597988732 : [student20]
+1.2449899798793562 : [student12]
+1.3228756744305188 : [student19, student7]
+1.4142135623730951 : [student17]
+1.5652476002217668 : [student8]
+1.7464249339722564 : [student4]
+2.1213203435596424 : [student13]
+2.1447610589527217 : [student6]
+2.323790018482737 : [student16]
+2.3558437978779496 : [student18]
+Based on the output considering top 5 results, the student will not default. As the family income is low for the applicant, a lot will depend on the applicant. The living cost in california is quite high. Considering the applicant family income, course, location there is a high probablity that the applicant will default. 
+
+Input Data- 7
+enroll_school, USC
+course, Computer Science
+location, California
+unemployed, 1
+salary, 0
+credit_score, 1
+course_performance, 2
+no_payment_due, 1
+family_income, 180000
+max_family_credit_score, 2
+	
+Output
+0.22360690955334991 : [student9]
+0.7416198487095663 : [student12]
+0.7416198824195587 : [student10, student20]
+0.9746794344808963 : [student3]
+1.0000000249999998 : [student17]
+1.0954451150103321 : [student2]
+1.095445137832105 : [student5]
+1.161895003862225 : [student8, student14]
+1.3038404810405297 : [student1]
+1.3964240043768943 : [student4]
+1.5652476002217668 : [student15]
+1.6124515496597098 : [student11]
+1.6583123951777 : [student19, student7]
+2.0493901653906703 : [student13]
+2.1330729124903347 : [student18]
+2.236067988680129 : [student6]
+2.3874672772626644 : [student16]
+
+Based on the output considering top 5 results, the student will default. Considering the applicant family income, course, location there is a high probablity that the applicant will not default. 
+
+Input Data- 8
+Input 
+enroll_school, USC
+course, Computer Science
+location, California
+unemployed, 1
+salary, 0
+credit_score, 1
+course_performance, 3
+no_payment_due, 1
+family_income, 180000
+max_family_credit_score, 2
+
+Output
+0.44721365140165387 : [student10]
+0.6324555715621454 : [student9]
+0.7745966692414834 : [student3]
+1.0 : [student14]
+1.161895003862225 : [student1]
+1.1832159777487794 : [student15]
+1.2449899597988732 : [student2, student11]
+1.2449899798793562 : [student5]
+1.2649110640673518 : [student12]
+1.264911083831587 : [student20]
+1.3038404810405297 : [student19, student7]
+1.4317821237883925 : [student17]
+1.5491933384829668 : [student8]
+1.7320508075688772 : [student4]
+2.1330729124903347 : [student13]
+2.1563858768782547 : [student6]
+2.3130067012440754 : [student16]
+2.366431923804275 : [student18]
+
+Based on the output considering top 5 results, the student will not default.
+
+Input Data-9
+enroll_school, USC
+course, Biology
+location, Reston
+unemployed, 0
+salary, 8000
+credit_score, 1
+course_performance, 3
+no_payment_due, 1
+family_income, 180000
+max_family_credit_score, 2
+
+
+Output
+0.22360690955334991 : [student14]
+0.5916079783099616 : [student15]
+0.7071067811865476 : [student5]
+0.7071068165418857 : [student2, student11]
+1.0723805294763609 : [student10]
+1.161895003862225 : [student9]
+1.2041594786405994 : [student8]
+1.224744871391589 : [student13]
+1.2649110640673518 : [student6]
+1.2845232773289863 : [student3]
+1.4317821237883925 : [student4]
+1.549193354620397 : [student16, student1]
+1.5968719422671311 : [student18, student20]
+1.5968719579227382 : [student12]
+1.658312410253267 : [student19, student7]
+1.7320508075688772 : [student17]
+
+Based on the output considering top 5 results, the student will not default.
